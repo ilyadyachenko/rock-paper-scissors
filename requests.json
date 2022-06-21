@@ -1,0 +1,11 @@
+request
+{"operation":  "battles/create", "data": {"nftID":  1, "userID": 1}}
+
+response
+{""}
+
+{"operation":  "battles/list"}
+{"operation":  "battles/accept", "data": {"offerID": 1, "nftID":  2, "userID": 2}}
+
+{"operation":  "battles/start", "data": {"offerID": 1, "acceptID": 1}}
+{"operation":  "battles/move", "data": {"battleID": 1, "userID": 1, "choose": 0, "round": 0}}
